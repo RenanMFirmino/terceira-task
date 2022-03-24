@@ -1,0 +1,61 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    font-size: 100%;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 7vh;
+    padding-bottom: 7vh;
+    padding-left: 7vw;
+    padding-right: 7vw;
+    gap: 10vw;
+    border-bottom: 2px solid darkgoldenrod;
+}
+.logo{
+    height: 10vh;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    gap: 5vw;
+}
+.imagem{
+    height: 50vh;
+    padding-left: 30vw;
+    padding-right: 30vw;
+    padding-bottom: 5vh;
+    
+}
+.titulo{
+    color: black;
+    text-align: center;
+}
+#div1{
+    border-top: 2px solid cyan;
+    color: cyan;
+}
+#div2{
+    border-top: 2px solid rebeccapurple;
+    color: rebeccapurple;
+}
+#div3{
+    border-top: 2px solid green;
+    color: green;
+}
+#div4{
+    border-top: 2px solid royalblue;
+    color: royalblue;
+}
+#div5{
+    border-top: 2px solid purple;
+    color: purple;
+}
+.rodape{
+    border-top: 2px solid crimson;
+}
